@@ -17,13 +17,13 @@
 .branding {
   font-size: inherit;
   font-weight: inherit;
-  text-transform: uppercase;
   margin: 0;
   padding: 0;
 
   @nest & > a {
     display: block;
     padding: 1.5em;
+    padding-left: 0;
 
     @supports (padding-top: env(safe-area-inset-top)) {
       padding-left: calc(env(safe-area-inset-left) + 1.5rem);
